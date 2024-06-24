@@ -1,0 +1,21 @@
+﻿{
+  "Metadata": {
+    "Id": "2a922b97-5fe1-49c8-acb7-d4ff06780fbb",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Recoleccion de Informacion"
+  },
+  "Data": {
+    "components": [
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}
