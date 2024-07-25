@@ -2676,14 +2676,14 @@
                                                         </ui:IfElseIf.ConditionBlocks>
                                                       </ui:IfElseIf>
                                                     </Sequence>
-                                                    <Sequence DisplayName="SendEmail" sap:VirtualizedContainerService.HintSize="704,874" sap2010:WorkflowViewState.IdRef="Sequence_640">
+                                                    <Sequence DisplayName="SendEmail" sap:VirtualizedContainerService.HintSize="592,854" sap2010:WorkflowViewState.IdRef="Sequence_640">
                                                       <sap:WorkflowViewStateService.ViewState>
                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
-                                                      <umab:ExchangeApplicationCard Account="analista.creditoycartera@servimeters.com" ConnectionAccountName="analista.creditoycartera@servimeters.com" ConnectionId="2d08ea77-7d76-4627-8b35-9660d9f2b5e5" DisplayName="Use Outlook 365" EmailAddress="analista.creditoycartera@servimeters.com" sap:VirtualizedContainerService.HintSize="530,754" sap2010:WorkflowViewState.IdRef="ExchangeApplicationCard_16" SharedMailbox="" UseConnectionService="True">
+                                                      <umab:ExchangeApplicationCard Account="analista.creditoycartera@servimeters.com" ConnectionAccountName="analista.creditoycartera@servimeters.com" ConnectionId="2d08ea77-7d76-4627-8b35-9660d9f2b5e5" DisplayName="Use Outlook 365" EmailAddress="analista.creditoycartera@servimeters.com" sap:VirtualizedContainerService.HintSize="530,766" sap2010:WorkflowViewState.IdRef="ExchangeApplicationCard_16" SharedMailbox="" UseConnectionService="True">
                                                         <umab:ExchangeApplicationCard.ApplicationId>
                                                           <InArgument x:TypeArguments="x:String">
                                                             <Literal x:TypeArguments="x:String" Value="" />
@@ -2694,13 +2694,13 @@
                                                             <ActivityAction.Argument>
                                                               <DelegateInArgument x:TypeArguments="um:IMailQuickHandle" Name="Exchange" />
                                                             </ActivityAction.Argument>
-                                                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="496,507" sap2010:WorkflowViewState.IdRef="Sequence_639">
+                                                            <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="496,521" sap2010:WorkflowViewState.IdRef="Sequence_639">
                                                               <sap:WorkflowViewStateService.ViewState>
                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                 </scg:Dictionary>
                                                               </sap:WorkflowViewStateService.ViewState>
-                                                              <umab:SendMailX Bcc="{x:Null}" Body="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Exchange]" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="434,419" sap2010:WorkflowViewState.IdRef="SendMailX_15" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="[ASUNTO_EMAIL]" To="duvan.sanabria@servimeters.com" UseDocumentAsBody="False">
+                                                              <umab:SendMailX Bcc="{x:Null}" Body="{x:Null}" Cc="{x:Null}" HtmlBodyFromText="{x:Null}" ReplyTo="{x:Null}" Account="[Exchange]" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="434,433" sap2010:WorkflowViewState.IdRef="SendMailX_15" Importance="Normal" IsDraft="False" MaxBodyDocumentSizeMB="2" Sensitivity="Normal" Subject="[ASUNTO_EMAIL]" To="duvan.sanabria@servimeters.com" UseDocumentAsBody="False">
                                                                 <umab:SendMailX.Files>
                                                                   <scg:List x:TypeArguments="InArgument(x:String)" Capacity="1">
                                                                     <InArgument x:TypeArguments="x:String">[RUTA_PLANTILLAS_CLI + newFolder.FullName + "\" + ValueCliente + ".xlsx"]</InArgument>
