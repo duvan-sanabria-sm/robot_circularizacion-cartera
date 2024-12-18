@@ -7,6 +7,7 @@
     "UiPath.Excel.Activities": "[2.22.2]",
     "UiPath.Form.Activities": "[23.10.5]",
     "UiPath.Mail.Activities": "[1.21.1]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.6.24]",
     "UiPath.System.Activities": "[23.10.2]",
     "UiPath.Testing.Activities": "[23.10.0]",
     "UiPath.UIAutomation.Activities": "[23.10.3]"
@@ -15,7 +16,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.10.0.0",
-  "projectVersion": "1.0.40",
+  "projectVersion": "1.0.43",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
