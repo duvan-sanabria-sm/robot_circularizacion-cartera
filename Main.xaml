@@ -203,7 +203,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="638,877" sap2010:WorkflowViewState.IdRef="TryCatch_9">
               <TryCatch.Try>
-                <Flowchart sap:VirtualizedContainerService.HintSize="1277,674.04" sap2010:WorkflowViewState.IdRef="Flowchart_4">
+                <Flowchart sap:VirtualizedContainerService.HintSize="1277,534.04" sap2010:WorkflowViewState.IdRef="Flowchart_4">
                   <Flowchart.Variables>
                     <Variable x:TypeArguments="x:String" Default="https://5845631.app.netsuite.com/app/common/search/searchresults.nl?searchid=2010" Name="URL_NS_CARTERA" />
                     <Variable x:TypeArguments="ui:UiElement" Name="browser" />
@@ -235,7 +235,7 @@
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       <av:Point x:Key="ShapeLocation">605,15</av:Point>
                       <av:Size x:Key="ShapeSize">50,50</av:Size>
-                      <av:PointCollection x:Key="ConnectorLocation">630,65 630,95 420,95 420,105</av:PointCollection>
+                      <av:PointCollection x:Key="ConnectorLocation">630,65 630,95 600,95 600,115</av:PointCollection>
                       <x:Double x:Key="Width">838</x:Double>
                       <x:Double x:Key="Height">1011.5</x:Double>
                     </scg:Dictionary>
@@ -280,10 +280,10 @@
                                 <TryCatch.Try>
                                   <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="True" DisplayName="Click 'Iniciar sesión'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="01d60cae-2b1e-4f04-8b6c-03a89d96bc6d" Version="V3">
                                     <uix:NClick.Target>
-                                      <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/login/secure/enterpriselogin.nl?c=5845631&amp;redirect=%2Fapp%2Fcommon%2Fsearch%2Fsearchresults.nl%3Fsearchid%3D2010&amp;whence=" CvElementArea="787, 670, 361, 42" CvTextArea="923, 685, 90, 14" CvTextArgument="Iniciar sesion" CvType="Button" DesignTimeRectangle="789, 672, 358, 40" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Iniciar sesión'" FullSelectorArgument="&lt;webctrl id='login-submit' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login-submit' tag='BUTTON' type='submit' class='btn login-btn' aaname='Iniciar sesión' check:innerText='Iniciar sesión' /&gt;" Guid="4d11464c-81c0-4339-95dc-81a1cce941ca" InformativeScreenshot="8cdb95a0a4b15cabbad437b8e236a3c8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NetSuite Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                      <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/login/secure/enterpriselogin.nl?c=5845631&amp;redirect=%2Fapp%2Fcommon%2Fsearch%2Fsearchresults.nl%3Fsearchid%3D2010&amp;whence=" CvElementArea="787, 670, 361, 42" CvTextArea="923, 685, 90, 14" CvTextArgument="Iniciar sesion" CvType="Button" DesignTimeRectangle="789, 672, 358, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='login-submit' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='login-submit' tag='BUTTON' type='submit' class='btn login-btn' aaname='Iniciar sesión' check:innerText='Iniciar sesión' /&gt;" Guid="4d11464c-81c0-4339-95dc-81a1cce941ca" InformativeScreenshot="8cdb95a0a4b15cabbad437b8e236a3c8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='NetSuite Login' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                         <uix:TargetAnchorable.Anchors>
                                           <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                            <uix:Target CvElementArea="787, 670, 361, 42" CvTextArea="923, 685, 90, 14" CvTextArgument="Iniciar sesion" CvType="Button" DesignTimeRectangle="924, 683, 88, 19" ElementType="Text" FriendlyName="'Iniciar sesión'" FullSelectorArgument="&lt;webctrl tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' class='' aaname='Iniciar sesión' check:innerText='Iniciar sesión' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAXCAYAAACGcCj3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANgSURBVGhD7VbNSxtREO/fIPkwjebLpMuCYmGhSKT1gzb10KKNpaKFbilYMCglQXFFiUTIKSdPuXnqqbdccsvJU2455eTJf+TXefv2ZT/cGINlpfAOP9g3M2925vfmzbxntxcTkAgOkvCAIQkPGJLwgCEJDxiS8IAhCR8X1Rgqqoq0lkS76qMfAQfhURg5cpTLoGm4jYbCiGP7oXvGsX1q7CcpThYrkerShXC1wshO4c+JU/5wSML9MJTwx+NxhEuMjXsJb2/Q+l0M3Uoclbxinroyn0HjF9OH0NrIQvEeUjWC5ocZLM8yuYo5bQaXFX/bztc0iq8US65geXUK7TPLj3kjXqBeiqKxwmx8CqFGfj9nBv9KqwoKq3F0hd6YRH01hznTvwptZRot0QrMOLPQWD9m+tkcip8m0b8Io/mG5+qq8KMYDKevxRSa5dAglvu5sjGacEpCe0tJ1Eh2bLUFlQJha++eWhR1ja1zMPasYM5D6JvD5a7/bjmCnhg85SkUWJBrMUqa1oMWlEPlp52YE73vGdKrKGxFuYxi6h2G+f7TGHYZmflpfohnYthNo0N27U3mW8X+rh1nl/besO/Bvy3Cha+XSbSYr1oYl0tMn0O9TGuyGc0Vx2jCSWbsD7PxrKn3mdVKJ20m7cJd//56K0mR9GtHxXogCFcWE2gdeXQ61xW/hQey1jrzP4PmsU348locHe8A9BAufOW/WAfrkCmbXDaaK45/SrgIIr1hB2bjrv9rPYWiJq6vgIfwpTh6Lj8OUEvp/EhCt3wo81lU9Cj6rIKt2P1g5sPa0VYaH+e5bE7LoC5upYdw4Wtbd9w0MVitXJ+E8NuDBK9wX5Lctjd7KdM2v05907xyQj8G4U6cUTvLs/0qqgd29Rd2Iv72ThjPecug2K5Ytf8vFX57HkVV9PCSozeaV9Zt6+2//VICBTPpMQg/DeNaJEMV+3uN7eeED/quSv87FDY0N6w+fXMcQVcMaJo9jQUemx/hw3t4FpeW76chnNmcsJeBPf3ZK6VqXlWPrfVKMKc+vRB0Ir69kyX9GIQfxaEv2C8H3lIifPAx0Cul8d6Ohel1qlI2X/p7CccLyWopoki8hFu+XC8ev1cKyccgXCIISMIDhiQ8YEjCA4YkPGBIwgPFBP4C37YrKdaYR2kAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                                            <uix:Target CvElementArea="787, 670, 361, 42" CvTextArea="923, 685, 90, 14" CvTextArgument="Iniciar sesion" CvType="Button" DesignTimeRectangle="924, 683, 88, 19" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='STRONG' type='' class='' aaname='Iniciar sesión' check:innerText='Iniciar sesión' /&gt;" Guid="c98c253c-949c-443f-8b2b-8cb00f76b995" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFwAAAAXCAYAAACGcCj3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANgSURBVGhD7VbNSxtREO/fIPkwjebLpMuCYmGhSKT1gzb10KKNpaKFbilYMCglQXFFiUTIKSdPuXnqqbdccsvJU2455eTJf+TXefv2ZT/cGINlpfAOP9g3M2925vfmzbxntxcTkAgOkvCAIQkPGJLwgCEJDxiS8IAhCR8X1Rgqqoq0lkS76qMfAQfhURg5cpTLoGm4jYbCiGP7oXvGsX1q7CcpThYrkerShXC1wshO4c+JU/5wSML9MJTwx+NxhEuMjXsJb2/Q+l0M3Uoclbxinroyn0HjF9OH0NrIQvEeUjWC5ocZLM8yuYo5bQaXFX/bztc0iq8US65geXUK7TPLj3kjXqBeiqKxwmx8CqFGfj9nBv9KqwoKq3F0hd6YRH01hznTvwptZRot0QrMOLPQWD9m+tkcip8m0b8Io/mG5+qq8KMYDKevxRSa5dAglvu5sjGacEpCe0tJ1Eh2bLUFlQJha++eWhR1ja1zMPasYM5D6JvD5a7/bjmCnhg85SkUWJBrMUqa1oMWlEPlp52YE73vGdKrKGxFuYxi6h2G+f7TGHYZmflpfohnYthNo0N27U3mW8X+rh1nl/besO/Bvy3Cha+XSbSYr1oYl0tMn0O9TGuyGc0Vx2jCSWbsD7PxrKn3mdVKJ20m7cJd//56K0mR9GtHxXogCFcWE2gdeXQ61xW/hQey1jrzP4PmsU348locHe8A9BAufOW/WAfrkCmbXDaaK45/SrgIIr1hB2bjrv9rPYWiJq6vgIfwpTh6Lj8OUEvp/EhCt3wo81lU9Cj6rIKt2P1g5sPa0VYaH+e5bE7LoC5upYdw4Wtbd9w0MVitXJ+E8NuDBK9wX5Lctjd7KdM2v05907xyQj8G4U6cUTvLs/0qqgd29Rd2Iv72ThjPecug2K5Ytf8vFX57HkVV9PCSozeaV9Zt6+2//VICBTPpMQg/DeNaJEMV+3uN7eeED/quSv87FDY0N6w+fXMcQVcMaJo9jQUemx/hw3t4FpeW76chnNmcsJeBPf3ZK6VqXlWPrfVKMKc+vRB0Ir69kyX9GIQfxaEv2C8H3lIifPAx0Cul8d6Ohel1qlI2X/p7CccLyWopoki8hFu+XC8ev1cKyccgXCIISMIDhiQ8YEjCA4YkPGBIwgPFBP4C37YrKdaYR2kAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
                                           </scg:List>
                                         </uix:TargetAnchorable.Anchors>
                                       </uix:TargetAnchorable>
@@ -323,7 +323,7 @@
                                       </sap:WorkflowViewStateService.ViewState>
                                       <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="353.6,180.8" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="01d60cae-2b1e-4f04-8b6c-03a89d96bc6d" Version="V3">
                                         <uix:NClick.Target>
-                                          <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/common/search/searchresults.nl?searchid=2010&amp;whence=" CvElementArea="70, 407, 20, 22" CvType="Icon" DesignTimeRectangle="71, 410, 20, 18" DesignTimeScaleFactor="1" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl class='uir_list_buttonbar_left' tableRow='1' tag='TABLE' /&gt;&lt;webctrl aria-label='Exportar - Microsoft ® Excel' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='uir_list_buttonbar_left' tag='TABLE' /&gt;&lt;webctrl aria-label='Exportar - Microsoft ® Excel' type='' tag='DIV' class='uir-list-icon-button uir-list-export-xls' aaname='' /&gt;" Guid="c540f135-8fe8-45a0-a2d4-c743570f66c5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAYAAADafVyIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVEhLY3jw7P1/WmL6WxA40YckjK4fHVNsAQijm4GMcVrw8cczvBimhpAlFFsAY+OyhCoWwPjYLKHIAmwY3TyyLUDHZFmw4/zS/yaF/HAM4oPETz05+L9wew4Yg9hkW4DNkrkHuzEMp8gCbJbELwpAMRyEKbIAhEEuR7YEFlwwTJEFsDAHuRzZEhAfJE6RBcgRis0SmE/IsgDdcHyWkGUBKXjwWUAuRjeP/hZQG9PYgvf/AdFYrpeyDD1aAAAAAElFTkSuQmCC" InformativeScreenshot="590e7fdcce64b911e073bd0f2db6f42c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resultados KS REPORTE CARTERA (ROBOT): - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                          <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/common/search/searchresults.nl?searchid=2010&amp;whence=" CvElementArea="70, 407, 20, 22" CvType="Icon" DesignTimeRectangle="71, 410, 20, 18" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='uir_list_buttonbar_left' tableRow='1' tag='TABLE' /&gt;&lt;webctrl aria-label='Exportar - Microsoft ® Excel' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='uir_list_buttonbar_left' tag='TABLE' /&gt;&lt;webctrl aria-label='Exportar - Microsoft ® Excel' type='' tag='DIV' class='uir-list-icon-button uir-list-export-xls' aaname='' /&gt;" Guid="c540f135-8fe8-45a0-a2d4-c743570f66c5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAYAAADafVyIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVEhLY3jw7P1/WmL6WxA40YckjK4fHVNsAQijm4GMcVrw8cczvBimhpAlFFsAY+OyhCoWwPjYLKHIAmwY3TyyLUDHZFmw4/zS/yaF/HAM4oPETz05+L9wew4Yg9hkW4DNkrkHuzEMp8gCbJbELwpAMRyEKbIAhEEuR7YEFlwwTJEFsDAHuRzZEhAfJE6RBcgRis0SmE/IsgDdcHyWkGUBKXjwWUAuRjeP/hZQG9PYgvf/AdFYrpeyDD1aAAAAAElFTkSuQmCC" InformativeScreenshot="590e7fdcce64b911e073bd0f2db6f42c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resultados KS REPORTE CARTERA (ROBOT): - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
                                         </uix:NClick.Target>
                                       </uix:NClick>
                                     </Sequence>
@@ -353,10 +353,10 @@
                                 </uix:NGoToUrl>
                                 <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Reporte'" sap:VirtualizedContainerService.HintSize="449.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="01d60cae-2b1e-4f04-8b6c-03a89d96bc6d" Version="V3">
                                   <uix:NClick.Target>
-                                    <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/site/hosting/scriptlet.nl?script=496&amp;deploy=1&amp;whence=" CvTextArea="39, 365, 136, 15" CvTextArgument="Reporte de Proformas" CvType="Text" DesignTimeRectangle="36, 359, 300, 25" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Reporte de Proformas'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl id='inpt_custpage_report1' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='inpt_custpage_report1' type='text' tag='INPUT' class='dropdownInput textbox' aaname='Reporte de Proformas' /&gt;" Guid="b6d269f3-efe2-455f-86aa-a735828ba934" InformativeScreenshot="48b2677652285527c373c2d4dbbc25f3.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Reportes - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                    <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/site/hosting/scriptlet.nl?script=496&amp;deploy=1&amp;whence=" CvTextArea="39, 365, 136, 15" CvTextArgument="Reporte de Proformas" CvType="Text" DesignTimeRectangle="36, 359, 300, 25" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl id='inpt_custpage_report1' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='inpt_custpage_report1' type='text' tag='INPUT' class='dropdownInput textbox' aaname='Reporte de Proformas' /&gt;" Guid="b6d269f3-efe2-455f-86aa-a735828ba934" InformativeScreenshot="48b2677652285527c373c2d4dbbc25f3.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Reportes - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
                                         <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                          <uix:Target CvTextArea="35, 344, 53, 12" CvTextArgument="REPORTE" CvType="Text" DesignTimeRectangle="36, 342, 51, 17" ElementType="Text" FriendlyName="'Reporte'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='smallgraytextnolink' aaname='Reporte' check:innerText='REPORTE' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAAVCAYAAADiv3Z7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEqSURBVFhH7ZPdEYQgDISvY7qgC8Y2HGvwhS7ogktEMT+gd+qL6M5wM2fcsJ+BT2xYL9xd9cLdVU+BC3GwJhpDVufnGsg7XoNl+wCFHR8qDNHSurFxQGuWj47VN3qzuvYZO4ArScDxTX23NME/ACdDT9rxTWACRj3DkA5+FyUoR7dDDwmeJH1cm3ChtyvQH3DUx0CJWO9CSOW7Gg43yF/vz8kln65lsbClyQnfeTh+ftmxUHdu2Vz71i+Om2/A5WD4Hu1R8FThqI9PuzK5FFjB/Ti5VRu16uQqH+T85EhThKHNDsGB7cCd47VZl8KBjt45pun4ibp6JkMWel4Nl0LMZnXnlonswE3CENQrAxVCypNThaN9YZF3CFx7euHuqmfAjePY3GJwbSnGL4Gd5kpwY1wgAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+                                          <uix:Target CvTextArea="35, 344, 53, 12" CvTextArgument="REPORTE" CvType="Text" DesignTimeRectangle="36, 342, 51, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='smallgraytextnolink' aaname='Reporte' check:innerText='REPORTE' /&gt;" Guid="676c9d34-44af-4780-9c0b-bacb6ba48154" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADcAAAAVCAYAAADiv3Z7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEqSURBVFhH7ZPdEYQgDISvY7qgC8Y2HGvwhS7ogktEMT+gd+qL6M5wM2fcsJ+BT2xYL9xd9cLdVU+BC3GwJhpDVufnGsg7XoNl+wCFHR8qDNHSurFxQGuWj47VN3qzuvYZO4ArScDxTX23NME/ACdDT9rxTWACRj3DkA5+FyUoR7dDDwmeJH1cm3ChtyvQH3DUx0CJWO9CSOW7Gg43yF/vz8kln65lsbClyQnfeTh+ftmxUHdu2Vz71i+Om2/A5WD4Hu1R8FThqI9PuzK5FFjB/Ti5VRu16uQqH+T85EhThKHNDsGB7cCd47VZl8KBjt45pun4ibp6JkMWel4Nl0LMZnXnlonswE3CENQrAxVCypNThaN9YZF3CFx7euHuqmfAjePY3GJwbSnGL4Gd5kpwY1wgAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
                                         </scg:List>
                                       </uix:TargetAnchorable.Anchors>
                                     </uix:TargetAnchorable>
@@ -364,15 +364,15 @@
                                 </uix:NClick>
                                 <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Reporte de Proformas'" sap:VirtualizedContainerService.HintSize="449.6,189.6" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="01d60cae-2b1e-4f04-8b6c-03a89d96bc6d" Version="V3">
                                   <uix:NClick.Target>
-                                    <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/site/hosting/scriptlet.nl?script=496&amp;deploy=1&amp;whence=" CvTextArea="39, 447, 137, 16" CvTextArgument="Reporte de Proformas" CvType="Text" DesignTimeRectangle="37, 440, 300, 28" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Reporte de Proformas'" FullSelectorArgument="&lt;webctrl id='nl3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='nl3' tag='DIV' type='' class='dropdownSelected' aaname='Reporte de Proformas' check:innerText='Reporte de Proformas' /&gt;" Guid="3f6127d6-f055-41ed-a8b9-884c9782f3b2" InformativeScreenshot="20423be6a263ca52d25bb25c1f8d079c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Reportes - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                    <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/site/hosting/scriptlet.nl?script=496&amp;deploy=1&amp;whence=" CvTextArea="39, 447, 137, 16" CvTextArgument="Reporte de Proformas" CvType="Text" DesignTimeRectangle="37, 440, 300, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='nl3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='nl3' tag='DIV' type='' class='dropdownSelected' aaname='Reporte de Proformas' check:innerText='Reporte de Proformas' /&gt;" Guid="3f6127d6-f055-41ed-a8b9-884c9782f3b2" InformativeScreenshot="20423be6a263ca52d25bb25c1f8d079c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Reportes - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
                                   </uix:NClick.Target>
                                 </uix:NClick>
                                 <uix:NSetText DisplayName="Set Text 'Fecha'" sap:VirtualizedContainerService.HintSize="449.6,195.2" sap2010:WorkflowViewState.IdRef="NSetText_5" ScopeIdentifier="01d60cae-2b1e-4f04-8b6c-03a89d96bc6d" Text="[Now.Year.ToString + &quot;-&quot; + Now.Month.ToString + &quot;-&quot; + Now.Day.ToString]" Version="V3">
                                   <uix:NSetText.Target>
-                                    <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/site/hosting/scriptlet.nl?script=496&amp;deploy=1&amp;whence=" CvElementArea="35, 414, 421, 27" CvType="InputBox" DesignTimeRectangle="36, 415, 420, 25" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT custpage_date'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl id='custpage_date' tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='custpage_date' type='text' tag='INPUT' class='inputreq uir-custom-field' aaname='' /&gt;" Guid="cde68024-a555-441b-a1ea-814ef4df317d" InformativeScreenshot="161e3eb6108968bc8d08890cb2d96b48.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Reportes - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                                    <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/site/hosting/scriptlet.nl?script=496&amp;deploy=1&amp;whence=" CvElementArea="35, 414, 421, 27" CvType="InputBox" DesignTimeRectangle="36, 415, 420, 25" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl id='custpage_date' tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='custpage_date' type='text' tag='INPUT' class='inputreq uir-custom-field' aaname='' /&gt;" Guid="cde68024-a555-441b-a1ea-814ef4df317d" InformativeScreenshot="161e3eb6108968bc8d08890cb2d96b48.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Reportes - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
                                         <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                          <uix:Target CvTextArea="35, 400, 39, 12" CvTextArgument="FECHA" CvType="Text" DesignTimeRectangle="36, 398, 37, 17" ElementType="Text" FriendlyName="'Fecha'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='smallgraytextnolink' aaname='Fecha' check:innerText='FECHA' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACkAAAAVCAYAAADb2McgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVEhL7ZTdCcUgDIXvxm6RLaRrFGfwxS26Ra6pSuNfK1ioggd8qDHJZzz0hxNoQb6lBfmWZoM8UIFAIfiSaCiyQ7IvUFLAK4+7PDQSxcYOnqI+gOrwn15nDVA2miuBzJNJVAD2Uvp98XZItweV/n2Qh0IIUyupFZLq2HO1Pn2QRQimRkizBfsYlIVXufekb3A+Kd/nXn2CjPLC4pAWjL2G2fJBfT/J0kWSnM89mU8uniypD9KK/FSd5hMkXbLgwcujTs2Q6ZPc/icD2ANkq40Y5LhakG9pLkit9bArghxTiH+NqK9BPIQJkQAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+                                          <uix:Target CvTextArea="35, 400, 39, 12" CvTextArgument="FECHA" CvType="Text" DesignTimeRectangle="36, 398, 37, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='A' class='smallgraytextnolink' aaname='Fecha' check:innerText='FECHA' /&gt;" Guid="9baa7015-e2e5-4da7-b88a-ff36dba8e2f6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACkAAAAVCAYAAADb2McgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVEhL7ZTdCcUgDIXvxm6RLaRrFGfwxS26Ra6pSuNfK1ioggd8qDHJZzz0hxNoQb6lBfmWZoM8UIFAIfiSaCiyQ7IvUFLAK4+7PDQSxcYOnqI+gOrwn15nDVA2miuBzJNJVAD2Uvp98XZItweV/n2Qh0IIUyupFZLq2HO1Pn2QRQimRkizBfsYlIVXufekb3A+Kd/nXn2CjPLC4pAWjL2G2fJBfT/J0kWSnM89mU8uniypD9KK/FSd5hMkXbLgwcujTs2Q6ZPc/icD2ANkq40Y5LhakG9pLkit9bArghxTiH+NqK9BPIQJkQAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
                                         </scg:List>
                                       </uix:TargetAnchorable.Anchors>
                                     </uix:TargetAnchorable>
@@ -389,7 +389,7 @@
                                         </sap:WorkflowViewStateService.ViewState>
                                         <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Descargar Excel'" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="01d60cae-2b1e-4f04-8b6c-03a89d96bc6d" Version="V3">
                                           <uix:NClick.Target>
-                                            <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/site/hosting/scriptlet.nl?script=496&amp;deploy=1&amp;whence=" CvElementArea="239, 222, 136, 30" CvTextArea="254, 230, 107, 17" CvTextArgument="Descargar Excel" CvType="Button" DesignTimeRectangle="242, 224, 130, 26" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Descargar Excel'" FullSelectorArgument="&lt;webctrl id='tbl_btn_descargar_excel' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='btn_descargar_excel' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tbl_btn_descargar_excel' tag='TABLE' /&gt;&lt;webctrl id='btn_descargar_excel' type='button' tag='INPUT' class='rndbuttoninpt bntBgT' aaname='Descargar Excel' check:text='Descargar Excel' /&gt;" Guid="989dcf54-1436-4802-b76d-7f7a6acd3d3c" InformativeScreenshot="0cc5a1e0306339bf9fd744e65ae3ff2b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Reportes - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                            <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/site/hosting/scriptlet.nl?script=496&amp;deploy=1&amp;whence=" CvElementArea="239, 222, 136, 30" CvTextArea="254, 230, 107, 17" CvTextArgument="Descargar Excel" CvType="Button" DesignTimeRectangle="242, 224, 130, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='tbl_btn_descargar_excel' tableRow='1' tag='TABLE' /&gt;&lt;webctrl id='btn_descargar_excel' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='tbl_btn_descargar_excel' tag='TABLE' /&gt;&lt;webctrl id='btn_descargar_excel' type='button' tag='INPUT' class='rndbuttoninpt bntBgT' aaname='Descargar Excel' check:text='Descargar Excel' /&gt;" Guid="989dcf54-1436-4802-b76d-7f7a6acd3d3c" InformativeScreenshot="0cc5a1e0306339bf9fd744e65ae3ff2b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Reportes - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
                                           </uix:NClick.Target>
                                         </uix:NClick>
                                       </Sequence>
@@ -505,7 +505,7 @@
                                       <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="467,488" sap2010:WorkflowViewState.IdRef="IfElseIf_84">
                                         <ui:IfElseIf.ConditionBlocks>
                                           <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                            <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]">
+                                            <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_4">
                                               <ui:IfElseIfBlock.Then>
                                                 <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="416,270" sap2010:WorkflowViewState.IdRef="Sequence_557">
                                                   <sap:WorkflowViewStateService.ViewState>
@@ -574,7 +574,7 @@
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                  <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="749,3173" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_29" KeepExcelFileOpen="True" ResizeWindow="Maximize" WorkbookPath="[RUTA_PLANTILLA + currentItem]">
+                                                  <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="749,3173" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_29" KeepExcelFileOpen="True" ResizeWindow="Maximize" SensitivityOperation="None" WorkbookPath="[RUTA_PLANTILLA + currentItem]">
                                                     <ueab:ExcelApplicationCard.Body>
                                                       <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                                         <ActivityAction.Argument>
@@ -604,7 +604,7 @@
                                                                   <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="557,1491" sap2010:WorkflowViewState.IdRef="IfElseIf_85">
                                                                     <ui:IfElseIf.ConditionBlocks>
                                                                       <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                                        <ui:IfElseIfBlock BlockType="If" Condition="[indexArrayReportes = 0]">
+                                                                        <ui:IfElseIfBlock BlockType="If" Condition="[indexArrayReportes = 0]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_16">
                                                                           <ui:IfElseIfBlock.Then>
                                                                             <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="496,481" sap2010:WorkflowViewState.IdRef="Sequence_560">
                                                                               <sap:WorkflowViewStateService.ViewState>
@@ -665,7 +665,7 @@
                                                                             </Sequence>
                                                                           </ui:IfElseIfBlock.Then>
                                                                         </ui:IfElseIfBlock>
-                                                                        <ui:IfElseIfBlock BlockType="Else">
+                                                                        <ui:IfElseIfBlock BlockType="Else" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_17">
                                                                           <ui:IfElseIfBlock.Then>
                                                                             <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="496,747" sap2010:WorkflowViewState.IdRef="Sequence_561">
                                                                               <sap:WorkflowViewStateService.ViewState>
@@ -747,7 +747,7 @@
                                                                   <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="557,814" sap2010:WorkflowViewState.IdRef="IfElseIf_86">
                                                                     <ui:IfElseIf.ConditionBlocks>
                                                                       <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                                        <ui:IfElseIfBlock BlockType="If" Condition="[indexArrayReportes = 0]">
+                                                                        <ui:IfElseIfBlock BlockType="If" Condition="[indexArrayReportes = 0]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_18">
                                                                           <ui:IfElseIfBlock.Then>
                                                                             <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="506,280" sap2010:WorkflowViewState.IdRef="Sequence_563">
                                                                               <sap:WorkflowViewStateService.ViewState>
@@ -759,7 +759,7 @@
                                                                             </Sequence>
                                                                           </ui:IfElseIfBlock.Then>
                                                                         </ui:IfElseIfBlock>
-                                                                        <ui:IfElseIfBlock BlockType="Else">
+                                                                        <ui:IfElseIfBlock BlockType="Else" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_19">
                                                                           <ui:IfElseIfBlock.Then>
                                                                             <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="506,280" sap2010:WorkflowViewState.IdRef="Sequence_564">
                                                                               <sap:WorkflowViewStateService.ViewState>
@@ -962,7 +962,7 @@
                                               <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="643,1276" sap2010:WorkflowViewState.IdRef="IfElseIf_87">
                                                 <ui:IfElseIf.ConditionBlocks>
                                                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                    <ui:IfElseIfBlock BlockType="If" Condition="[indexRowFound &lt;&gt; (-1)]">
+                                                    <ui:IfElseIfBlock BlockType="If" Condition="[indexRowFound &lt;&gt; (-1)]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_5">
                                                       <ui:IfElseIfBlock.Then>
                                                         <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="592,1057" sap2010:WorkflowViewState.IdRef="Sequence_573">
                                                           <sap:WorkflowViewStateService.ViewState>
@@ -1084,7 +1084,7 @@
                                               <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="609,926" sap2010:WorkflowViewState.IdRef="IfElseIf_88">
                                                 <ui:IfElseIf.ConditionBlocks>
                                                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                    <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]">
+                                                    <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_6">
                                                       <ui:IfElseIfBlock.Then>
                                                         <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="558,699" sap2010:WorkflowViewState.IdRef="Sequence_576">
                                                           <sap:WorkflowViewStateService.ViewState>
@@ -1172,7 +1172,7 @@
                                               <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="563,790" sap2010:WorkflowViewState.IdRef="IfElseIf_89">
                                                 <ui:IfElseIf.ConditionBlocks>
                                                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                    <ui:IfElseIfBlock BlockType="If" Condition="[Not IsNothing(DataTableClienteProf)]">
+                                                    <ui:IfElseIfBlock BlockType="If" Condition="[Not IsNothing(DataTableClienteProf)]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_7">
                                                       <ui:IfElseIfBlock.Then>
                                                         <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="512,572" sap2010:WorkflowViewState.IdRef="Sequence_580">
                                                           <sap:WorkflowViewStateService.ViewState>
@@ -1229,7 +1229,7 @@
                                               <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="818,1447" sap2010:WorkflowViewState.IdRef="IfElseIf_90">
                                                 <ui:IfElseIf.ConditionBlocks>
                                                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                    <ui:IfElseIfBlock BlockType="If" Condition="[Not IsNothing(DataTableClienteProf)]">
+                                                    <ui:IfElseIfBlock BlockType="If" Condition="[Not IsNothing(DataTableClienteProf)]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_8">
                                                       <ui:IfElseIfBlock.Then>
                                                         <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="767,1219" sap2010:WorkflowViewState.IdRef="Sequence_582">
                                                           <sap:WorkflowViewStateService.ViewState>
@@ -1279,7 +1279,7 @@
                                                                     <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="547,412" sap2010:WorkflowViewState.IdRef="IfElseIf_103">
                                                                       <ui:IfElseIf.ConditionBlocks>
                                                                         <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                                          <ui:IfElseIfBlock BlockType="If" Condition="[CDate(fechaLimite).CompareTo(CDate(fecha_prof)) = 1]">
+                                                                          <ui:IfElseIfBlock BlockType="If" Condition="[CDate(fechaLimite).CompareTo(CDate(fecha_prof)) = 1]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_20">
                                                                             <ui:IfElseIfBlock.Then>
                                                                               <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="496,193" sap2010:WorkflowViewState.IdRef="Sequence_659">
                                                                                 <sap:WorkflowViewStateService.ViewState>
@@ -1321,7 +1321,7 @@
                                               <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="818,1094" sap2010:WorkflowViewState.IdRef="IfElseIf_91">
                                                 <ui:IfElseIf.ConditionBlocks>
                                                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                    <ui:IfElseIfBlock BlockType="If" Condition="[index &gt; 14]">
+                                                    <ui:IfElseIfBlock BlockType="If" Condition="[index &gt; 14]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_9">
                                                       <ui:IfElseIfBlock.Then>
                                                         <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="688,875" sap2010:WorkflowViewState.IdRef="Sequence_585">
                                                           <sap:WorkflowViewStateService.ViewState>
@@ -1341,7 +1341,7 @@
                                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                     </scg:Dictionary>
                                                                   </sap:WorkflowViewStateService.ViewState>
-                                                                  <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="530,589" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_30" ResizeWindow="None" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]">
+                                                                  <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="530,589" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_30" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]">
                                                                     <ueab:ExcelApplicationCard.Body>
                                                                       <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                                                         <ActivityAction.Argument>
@@ -1388,7 +1388,7 @@
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
-                                                      <ui:WriteRange AddHeaders="False" DataTable="[DataTableCliente]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="WriteRange_5" SheetName="ESTADO CUENTA" StartingCell="B8" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]" />
+                                                      <ui:WriteRange WorkbookPathResource="{x:Null}" AddHeaders="False" DataTable="[DataTableCliente]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="WriteRange_5" SheetName="ESTADO CUENTA" StartingCell="B8" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]" />
                                                     </Sequence>
                                                   </ActivityAction>
                                                 </ueab:ExcelProcessScopeX.Body>
@@ -1404,7 +1404,7 @@
                                               <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="467,733" sap2010:WorkflowViewState.IdRef="IfElseIf_92">
                                                 <ui:IfElseIf.ConditionBlocks>
                                                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                    <ui:IfElseIfBlock BlockType="If" Condition="[Not IsNothing(DataTableClienteProf)]">
+                                                    <ui:IfElseIfBlock BlockType="If" Condition="[Not IsNothing(DataTableClienteProf)]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_10">
                                                       <ui:IfElseIfBlock.Then>
                                                         <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="416,515" sap2010:WorkflowViewState.IdRef="Sequence_589">
                                                           <sap:WorkflowViewStateService.ViewState>
@@ -1431,7 +1431,7 @@
                                               <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="868,2976" sap2010:WorkflowViewState.IdRef="IfElseIf_106">
                                                 <ui:IfElseIf.ConditionBlocks>
                                                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                    <ui:IfElseIfBlock BlockType="If" Condition="[Not IsNothing(DataTableClienteProf)]">
+                                                    <ui:IfElseIfBlock BlockType="If" Condition="[Not IsNothing(DataTableClienteProf)]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_11">
                                                       <ui:IfElseIfBlock.Then>
                                                         <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="817,2757" sap2010:WorkflowViewState.IdRef="Sequence_671">
                                                           <sap:WorkflowViewStateService.ViewState>
@@ -1472,7 +1472,7 @@
                                                                     <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="467,355" sap2010:WorkflowViewState.IdRef="IfElseIf_104">
                                                                       <ui:IfElseIf.ConditionBlocks>
                                                                         <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                                          <ui:IfElseIfBlock BlockType="If" Condition="[CDate(fechaLimite).CompareTo(CDate(fecha_prof)) = -1]">
+                                                                          <ui:IfElseIfBlock BlockType="If" Condition="[CDate(fechaLimite).CompareTo(CDate(fecha_prof)) = -1]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_21">
                                                                             <ui:IfElseIfBlock.Then>
                                                                               <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,136" sap2010:WorkflowViewState.IdRef="Sequence_665">
                                                                                 <sap:WorkflowViewStateService.ViewState>
@@ -1521,7 +1521,7 @@
                                                                                   <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="467,709" sap2010:WorkflowViewState.IdRef="IfElseIf_105">
                                                                                     <ui:IfElseIf.ConditionBlocks>
                                                                                       <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                                                        <ui:IfElseIfBlock BlockType="If" Condition="[currentItem = 8]">
+                                                                                        <ui:IfElseIfBlock BlockType="If" Condition="[currentItem = 8]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_23">
                                                                                           <ui:IfElseIfBlock.Then>
                                                                                             <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="Sequence_666">
                                                                                               <sap:WorkflowViewStateService.ViewState>
@@ -1529,11 +1529,11 @@
                                                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                 </scg:Dictionary>
                                                                                               </sap:WorkflowViewStateService.ViewState>
-                                                                                              <ui:WriteCell Cell="[ARRAY_COLUMNS_RANGE(i) + (8 +DataTableCliente.RowCount + RowProf).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="WriteCell_17" SheetName="ESTADO CUENTA" Text="[ValueNit]" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]" />
+                                                                                              <ui:WriteCell WorkbookPathResource="{x:Null}" Cell="[ARRAY_COLUMNS_RANGE(i) + (8 +DataTableCliente.RowCount + RowProf).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="WriteCell_17" SheetName="ESTADO CUENTA" Text="[ValueNit]" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]" />
                                                                                             </Sequence>
                                                                                           </ui:IfElseIfBlock.Then>
                                                                                         </ui:IfElseIfBlock>
-                                                                                        <ui:IfElseIfBlock BlockType="Else">
+                                                                                        <ui:IfElseIfBlock BlockType="Else" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_24">
                                                                                           <ui:IfElseIfBlock.Then>
                                                                                             <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="416,227" sap2010:WorkflowViewState.IdRef="Sequence_667">
                                                                                               <sap:WorkflowViewStateService.ViewState>
@@ -1541,7 +1541,7 @@
                                                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                                                 </scg:Dictionary>
                                                                                               </sap:WorkflowViewStateService.ViewState>
-                                                                                              <ui:WriteCell Cell="[ARRAY_COLUMNS_RANGE(i) + (8 +DataTableCliente.RowCount + RowProf).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="WriteCell_18" SheetName="ESTADO CUENTA" Text="[valueCell]" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]" />
+                                                                                              <ui:WriteCell WorkbookPathResource="{x:Null}" Cell="[ARRAY_COLUMNS_RANGE(i) + (8 +DataTableCliente.RowCount + RowProf).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="WriteCell_18" SheetName="ESTADO CUENTA" Text="[valueCell]" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]" />
                                                                                             </Sequence>
                                                                                           </ui:IfElseIfBlock.Then>
                                                                                         </ui:IfElseIfBlock>
@@ -1614,7 +1614,7 @@
                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                         </scg:Dictionary>
                                                       </sap:WorkflowViewStateService.ViewState>
-                                                      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="688,2730.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_31" ResizeWindow="None" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]">
+                                                      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="688,2730.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_31" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]">
                                                         <ueab:ExcelApplicationCard.Body>
                                                           <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                                             <ActivityAction.Argument>
@@ -1781,7 +1781,7 @@
                                               <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="467,528" sap2010:WorkflowViewState.IdRef="IfElseIf_95">
                                                 <ui:IfElseIf.ConditionBlocks>
                                                   <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                    <ui:IfElseIfBlock BlockType="If" Condition="[String.IsNullOrEmpty(ValueCorreoCliente) Or IsNothing(ValueCorreoCliente)]">
+                                                    <ui:IfElseIfBlock BlockType="If" Condition="[String.IsNullOrEmpty(ValueCorreoCliente) Or IsNothing(ValueCorreoCliente)]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_12">
                                                       <ui:IfElseIfBlock.Then>
                                                         <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="416,309" sap2010:WorkflowViewState.IdRef="Sequence_602">
                                                           <sap:WorkflowViewStateService.ViewState>
@@ -1829,7 +1829,7 @@
                                                           </scg:List>
                                                         </umab:SendMailX.Files>
                                                         <umab:SendMailX.HtmlBodyFromFile>
-                                                          <umabh:HtmlContentArgument FilePath=".data/HtmlContent2.html">
+                                                          <umabh:HtmlContentArgument HtmlBody="{x:Null}" FilePath=".data/HtmlContent2.html">
                                                             <umabh:HtmlContentArgument.RuntimeImages>
                                                               <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
                                                             </umabh:HtmlContentArgument.RuntimeImages>
@@ -1967,7 +1967,7 @@
                                                           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                                         </umab:SendMailX.Files>
                                                         <umab:SendMailX.HtmlBodyFromFile>
-                                                          <umabh:HtmlContentArgument FilePath="{x:Null}">
+                                                          <umabh:HtmlContentArgument FilePath="{x:Null}" HtmlBody="{x:Null}">
                                                             <umabh:HtmlContentArgument.RuntimeImages>
                                                               <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
                                                             </umabh:HtmlContentArgument.RuntimeImages>
@@ -2043,7 +2043,7 @@
                                                                 </sap:WorkflowViewStateService.ViewState>
                                                                 <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="NClick_33" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0612f9b5-4c6a-4e38-a648-c040774c62a5" Version="V3">
                                                                   <uix:NClick.Target>
-                                                                    <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/common/search/searchresults.nl?searchid=2011&amp;whence=" CvElementArea="70, 342, 21, 22" CvType="Icon" DesignTimeRectangle="71, 345, 20, 18" DesignTimeScaleFactor="1" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl class='uir_list_buttonbar_left' tableRow='1' tag='TABLE' /&gt;&lt;webctrl aria-label='Exportar - Microsoft ® Excel' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='uir_list_buttonbar_left' tag='TABLE' /&gt;&lt;webctrl aria-label='Exportar - Microsoft ® Excel' type='' tag='DIV' class='uir-list-icon-button uir-list-export-xls' aaname='' /&gt;" Guid="6a79fbc6-f952-4cb3-898e-6f9705a13ad6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAYAAADafVyIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVEhLY3jw7P1/WmL6WxA40YckjK4fHVNsAQijm4GMcVrw8cczvBimhpAlFFsAY+OyhCoWwPjYLKHIAmwY3TyyLUDHZFmw4/zS/yaF/HAM4oPETz05+L9wew4Yg9hkW4DNkrkHuzEMp8gCbJbELwpAMRyEKbIAhEEuR7YEFlwwTJEFsDAHuRzZEhAfJE6RBcgRis0SmE/IsgDdcHyWkGUBKXjwWUAuRjeP/hZQG9PYgvf/AdFYrpeyDD1aAAAAAElFTkSuQmCC" InformativeScreenshot="3c2800203df652dc7db41f9c2bb9bb45.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resultados SM Correos Clientes: - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                                                                    <uix:TargetAnchorable BrowserURL="https://5845631.app.netsuite.com/app/common/search/searchresults.nl?searchid=2011&amp;whence=" CvElementArea="70, 342, 21, 22" CvType="Icon" DesignTimeRectangle="71, 345, 20, 18" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='uir_list_buttonbar_left' tableRow='1' tag='TABLE' /&gt;&lt;webctrl aria-label='Exportar - Microsoft ® Excel' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='uir_list_buttonbar_left' tag='TABLE' /&gt;&lt;webctrl aria-label='Exportar - Microsoft ® Excel' type='' tag='DIV' class='uir-list-icon-button uir-list-export-xls' aaname='' /&gt;" Guid="6a79fbc6-f952-4cb3-898e-6f9705a13ad6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAYAAADafVyIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC1SURBVEhLY3jw7P1/WmL6WxA40YckjK4fHVNsAQijm4GMcVrw8cczvBimhpAlFFsAY+OyhCoWwPjYLKHIAmwY3TyyLUDHZFmw4/zS/yaF/HAM4oPETz05+L9wew4Yg9hkW4DNkrkHuzEMp8gCbJbELwpAMRyEKbIAhEEuR7YEFlwwTJEFsDAHuRzZEhAfJE6RBcgRis0SmE/IsgDdcHyWkGUBKXjwWUAuRjeP/hZQG9PYgvf/AdFYrpeyDD1aAAAAAElFTkSuQmCC" InformativeScreenshot="3c2800203df652dc7db41f9c2bb9bb45.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resultados SM Correos Clientes: - NetSuite (SERVIMETERS S.A.S)' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
                                                                   </uix:NClick.Target>
                                                                 </uix:NClick>
                                                               </Sequence>
@@ -2108,7 +2108,7 @@
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="450,317" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_32" ResizeWindow="None" WorkbookPath="[ExcelReporteClientes.FullName]">
+                                                                      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="450,317" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_32" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[ExcelReporteClientes.FullName]">
                                                                         <ueab:ExcelApplicationCard.Body>
                                                                           <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                                                             <ActivityAction.Argument>
@@ -2144,7 +2144,7 @@
                                                                                       <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="557,581" sap2010:WorkflowViewState.IdRef="IfElseIf_96">
                                                                                         <ui:IfElseIf.ConditionBlocks>
                                                                                           <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                                                            <ui:IfElseIfBlock BlockType="If" Condition="[Not IsNothing(findRow)]">
+                                                                                            <ui:IfElseIfBlock BlockType="If" Condition="[Not IsNothing(findRow)]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_22">
                                                                                               <ui:IfElseIfBlock.Then>
                                                                                                 <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="506,362" sap2010:WorkflowViewState.IdRef="Sequence_614">
                                                                                                   <sap:WorkflowViewStateService.ViewState>
@@ -2316,7 +2316,7 @@
                                                       <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="609,703" sap2010:WorkflowViewState.IdRef="IfElseIf_97">
                                                         <ui:IfElseIf.ConditionBlocks>
                                                           <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                            <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]">
+                                                            <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_13">
                                                               <ui:IfElseIfBlock.Then>
                                                                 <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="558,475" sap2010:WorkflowViewState.IdRef="Sequence_623">
                                                                   <sap:WorkflowViewStateService.ViewState>
@@ -2400,7 +2400,7 @@
                                                       <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="739,1094" sap2010:WorkflowViewState.IdRef="IfElseIf_98">
                                                         <ui:IfElseIf.ConditionBlocks>
                                                           <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                            <ui:IfElseIfBlock BlockType="If" Condition="[index &gt; 14]">
+                                                            <ui:IfElseIfBlock BlockType="If" Condition="[index &gt; 14]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_14">
                                                               <ui:IfElseIfBlock.Then>
                                                                 <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="688,875" sap2010:WorkflowViewState.IdRef="Sequence_629">
                                                                   <sap:WorkflowViewStateService.ViewState>
@@ -2420,7 +2420,7 @@
                                                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                             </scg:Dictionary>
                                                                           </sap:WorkflowViewStateService.ViewState>
-                                                                          <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="530,589" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_33" ResizeWindow="None" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]">
+                                                                          <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="530,589" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_33" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]">
                                                                             <ueab:ExcelApplicationCard.Body>
                                                                               <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                                                                 <ActivityAction.Argument>
@@ -2513,7 +2513,7 @@
                                                                                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                                 </scg:Dictionary>
                                                                               </sap:WorkflowViewStateService.ViewState>
-                                                                              <ui:WriteCell Cell="[ARRAY_COLUMNS_RANGE(i) + (8+ RowProf).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="WriteCell_16" SheetName="ESTADO CUENTA" Text="[valueCell]" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]" />
+                                                                              <ui:WriteCell WorkbookPathResource="{x:Null}" Cell="[ARRAY_COLUMNS_RANGE(i) + (8+ RowProf).ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="354,139" sap2010:WorkflowViewState.IdRef="WriteCell_16" SheetName="ESTADO CUENTA" Text="[valueCell]" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]" />
                                                                             </Sequence>
                                                                           </ActivityAction>
                                                                         </ueab:ExcelProcessScopeX.Body>
@@ -2564,7 +2564,7 @@
                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                 </scg:Dictionary>
                                                               </sap:WorkflowViewStateService.ViewState>
-                                                              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="535,1221" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_34" ResizeWindow="None" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]">
+                                                              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="535,1221" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_34" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]">
                                                                 <ueab:ExcelApplicationCard.Body>
                                                                   <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                                                     <ActivityAction.Argument>
@@ -2666,7 +2666,7 @@
                                                       <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="466.4,530.4" sap2010:WorkflowViewState.IdRef="IfElseIf_99">
                                                         <ui:IfElseIf.ConditionBlocks>
                                                           <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                                            <ui:IfElseIfBlock BlockType="If" Condition="[String.IsNullOrEmpty(ValueCorreoCliente) Or IsNothing(ValueCorreoCliente)]">
+                                                            <ui:IfElseIfBlock BlockType="If" Condition="[String.IsNullOrEmpty(ValueCorreoCliente) Or IsNothing(ValueCorreoCliente)]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_15">
                                                               <ui:IfElseIfBlock.Then>
                                                                 <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="416,311.2" sap2010:WorkflowViewState.IdRef="Sequence_637">
                                                                   <sap:WorkflowViewStateService.ViewState>
@@ -2714,7 +2714,7 @@
                                                                   </scg:List>
                                                                 </umab:SendMailX.Files>
                                                                 <umab:SendMailX.HtmlBodyFromFile>
-                                                                  <umabh:HtmlContentArgument FilePath=".data/HtmlContent2.html">
+                                                                  <umabh:HtmlContentArgument HtmlBody="{x:Null}" FilePath=".data/HtmlContent2.html">
                                                                     <umabh:HtmlContentArgument.RuntimeImages>
                                                                       <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
                                                                     </umabh:HtmlContentArgument.RuntimeImages>
@@ -2874,9 +2874,9 @@
                   <FlowStep x:Name="__ReferenceID10" sap2010:WorkflowViewState.IdRef="FlowStep_1">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <av:Point x:Key="ShapeLocation">365,105</av:Point>
+                        <av:Point x:Key="ShapeLocation">545,115</av:Point>
                         <av:Size x:Key="ShapeSize">110,70</av:Size>
-                        <av:PointCollection x:Key="ConnectorLocation">420,175 420,205 550,205 550,225</av:PointCollection>
+                        <av:PointCollection x:Key="ConnectorLocation">600,185 600,215 550,215 550,225</av:PointCollection>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <Sequence DisplayName="CalcularFechaCorte" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_693">
@@ -2981,7 +2981,7 @@
                             <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="467,409" sap2010:WorkflowViewState.IdRef="IfElseIf_100">
                               <ui:IfElseIf.ConditionBlocks>
                                 <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                  <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]">
+                                  <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_3">
                                     <ui:IfElseIfBlock.Then>
                                       <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="Sequence_644">
                                         <sap:WorkflowViewStateService.ViewState>
@@ -3018,7 +3018,7 @@
                           <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="467,409" sap2010:WorkflowViewState.IdRef="IfElseIf_110">
                             <ui:IfElseIf.ConditionBlocks>
                               <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]">
+                                <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_1">
                                   <ui:IfElseIfBlock.Then>
                                     <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="Sequence_686">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -3057,7 +3057,7 @@
                           <ui:IfElseIf DisplayName="Else If" sap:VirtualizedContainerService.HintSize="467,409" sap2010:WorkflowViewState.IdRef="IfElseIf_111">
                             <ui:IfElseIf.ConditionBlocks>
                               <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                                <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]">
+                                <ui:IfElseIfBlock BlockType="If" Condition="[existsFile]" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_2">
                                   <ui:IfElseIfBlock.Then>
                                     <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="Sequence_689">
                                       <sap:WorkflowViewStateService.ViewState>
