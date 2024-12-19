@@ -1,7 +1,7 @@
 {
-  "name": "CircularizacionCartera",
+  "name": "Circularización Cartera",
   "projectId": "00809ff4-9dda-4f56-8144-a41f7ea3bf3e",
-  "description": "Porceso de circularizacion",
+  "description": "Robot para el área financiera que genera un reporte para cada cliente que tiene cartera vencida apoyándose de 2 informes descargados de NS y envía dicho reporte al cliente por correo solicitando al cliente su propio reporte de cartera.",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.2]",
