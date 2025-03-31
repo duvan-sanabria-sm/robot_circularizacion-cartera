@@ -1,0 +1,13 @@
+{
+  "assemblyStates": {
+    "CA70AD7077C_individu.hZX4j3F7CGB1Y8Dvb20ZKt21": {
+      "namespace": "UiPath.IntegrationService.Activities.SWEntities.CA70AD7077C_individualminus_signchatsminus_signmessages_Create.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.CA70AD7077C_individualminus_signchatsminus_signmessages_Create",
+        "hash": "V1M2SE5CZndkT2IvcG9oem15MERabHhoTVZYYjY5YkI3eWN2YnNWbnNlQ016Zk1VNzBCSXFSaVY3L1VrR0tTWkovMHNtOE1nVkxZM3NtK2RGWHBUMXc9PQ",
+        "assemblyName": "CA70AD7077C_individu.hZX4j3F7CGB1Y8Dvb20ZKt21"
+      }
+    }
+  }
+}
