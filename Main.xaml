@@ -183,7 +183,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="MainAction" sap:VirtualizedContainerService.HintSize="837,728" sap2010:WorkflowViewState.IdRef="Sequence_541">
+  <Sequence DisplayName="MainAction" sap:VirtualizedContainerService.HintSize="1049,728" sap2010:WorkflowViewState.IdRef="Sequence_541">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="isFinish" />
       <Variable x:TypeArguments="s:String[]" Default="[{nombreReporte, nombreReporteProformas}]" Name="ArrayReportes" />
@@ -213,13 +213,14 @@
       <Variable x:TypeArguments="s:Int32[]" Default="[{0, 3, 4, 1, 8, 5, 9, 2, 6, 7}]" Name="ARRAY_COLUMNS_PROF" />
       <Variable x:TypeArguments="s:String[]" Default="[{&quot;B&quot;, &quot;C&quot;, &quot;D&quot;, &quot;E&quot;, &quot;F&quot;, &quot;G&quot;, &quot;H&quot;, &quot;I&quot;, &quot;J&quot;, &quot;K&quot;}]" Name="ARRAY_COLUMNS_RANGE" />
       <Variable x:TypeArguments="s:DateTime" Name="fechaModificada" />
+      <Variable x:TypeArguments="x:String" Name="excel_file_path" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="854,592.04" sap2010:WorkflowViewState.IdRef="Flowchart_5">
+    <Flowchart sap:VirtualizedContainerService.HintSize="962,592.04" sap2010:WorkflowViewState.IdRef="Flowchart_5">
       <Flowchart.Variables>
         <Variable x:TypeArguments="x:String" Default="https://5845631.app.netsuite.com/app/common/search/searchresults.nl?searchid=2010" Name="URL_NS_CARTERA" />
         <Variable x:TypeArguments="ui:UiElement" Name="browser" />
@@ -830,9 +831,9 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[DataTableReporte.RowCount &gt; 0]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="920,18486" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_12">
+                          <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[DataTableReporte.RowCount &gt; 0]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="920,18661" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_12">
                             <ui:InterruptibleDoWhile.Body>
-                              <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="886,18349" sap2010:WorkflowViewState.IdRef="Sequence_1028">
+                              <Sequence DisplayName="Cuerpo" sap:VirtualizedContainerService.HintSize="886,18524" sap2010:WorkflowViewState.IdRef="Sequence_1028">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1613,32 +1614,32 @@
                                     </ui:IfElseIf.ConditionBlocks>
                                   </ui:IfElseIf>
                                 </Sequence>
-                                <Sequence DisplayName="FormatTotal" sap:VirtualizedContainerService.HintSize="852,3307" sap2010:WorkflowViewState.IdRef="Sequence_1021">
+                                <Sequence DisplayName="FormatTotal" sap:VirtualizedContainerService.HintSize="852,3482" sap2010:WorkflowViewState.IdRef="Sequence_1021">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="672,3215" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_67">
+                                  <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="672,3390" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_67">
                                     <ueab:ExcelProcessScopeX.Body>
                                       <ActivityAction x:TypeArguments="ui:IExcelProcess">
                                         <ActivityAction.Argument>
                                           <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
                                         </ActivityAction.Argument>
-                                        <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="638,3105" sap2010:WorkflowViewState.IdRef="Sequence_1020">
+                                        <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="638,3280" sap2010:WorkflowViewState.IdRef="Sequence_1020">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="604,3045" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_54" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]">
+                                          <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="604,3220" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_54" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[RUTA_PLANTILLAS_CLI + newFolder.FullName + &quot;\&quot; + ValueCliente + &quot;.xlsx&quot;]">
                                             <ueab:ExcelApplicationCard.Body>
                                               <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                                                 <ActivityAction.Argument>
                                                   <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
                                                 </ActivityAction.Argument>
-                                                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="570,2753" sap2010:WorkflowViewState.IdRef="Sequence_1019">
+                                                <Sequence DisplayName="Hacer" sap:VirtualizedContainerService.HintSize="570,2928" sap2010:WorkflowViewState.IdRef="Sequence_1019">
                                                   <sap:WorkflowViewStateService.ViewState>
                                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1699,7 +1700,7 @@
                                                       <ueab:CustomFormat FormatAsString="dd/mm/yyyy" />
                                                     </ueab:FormatRangeX.Format>
                                                   </ueab:FormatRangeX>
-                                                  <Sequence DisplayName="FormatDays" sap:VirtualizedContainerService.HintSize="536,1843" sap2010:WorkflowViewState.IdRef="Sequence_1018">
+                                                  <Sequence DisplayName="FormatDays" sap:VirtualizedContainerService.HintSize="536,2018" sap2010:WorkflowViewState.IdRef="Sequence_1018">
                                                     <sap:WorkflowViewStateService.ViewState>
                                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1763,10 +1764,15 @@
                                                         </ActivityAction>
                                                       </ueab:SortX.Body>
                                                     </ueab:SortX>
-                                                    <ueab:InvokeVBAX Result="{x:Null}" CodeFilePath="vba\FormatExcel.vbs" DisplayName="Invoke VBA" EntryMethodName="FormatExcel" sap:VirtualizedContainerService.HintSize="502,403" sap2010:WorkflowViewState.IdRef="InvokeVBAX_37" Workbook="[Excel]">
+                                                    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="Ruta VBA Formato Excel" CacheStrategy="None" DisplayName="Get Asset" FolderPath="Servimeters/Comercio/Cartera" sap:VirtualizedContainerService.HintSize="502,175" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
+                                                      <ui:GetRobotAsset.Value>
+                                                        <OutArgument x:TypeArguments="x:String">[excel_file_path]</OutArgument>
+                                                      </ui:GetRobotAsset.Value>
+                                                    </ui:GetRobotAsset>
+                                                    <ueab:InvokeVBAX Result="{x:Null}" CodeFilePath="[excel_file_path]" DisplayName="Invoke VBA" EntryMethodName="FormatExcel" sap:VirtualizedContainerService.HintSize="502,403" sap2010:WorkflowViewState.IdRef="InvokeVBAX_37" Workbook="[Excel]">
                                                       <ueab:InvokeVBAX.Body>
                                                         <ActivityAction>
-                                                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,289" sap2010:WorkflowViewState.IdRef="Sequence_1017">
+                                                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="Sequence_1017">
                                                             <sap:WorkflowViewStateService.ViewState>
                                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2036,7 +2042,7 @@
                                     <av:PointCollection x:Key="ConnectorLocation">575,850 450,850 450,735</av:PointCollection>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <Sequence DisplayName="RecorrerProformas" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_895">
+                                <Sequence DisplayName="RecorrerProformas" sap:VirtualizedContainerService.HintSize="965,12796" sap2010:WorkflowViewState.IdRef="Sequence_895">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="si:FileInfo" Name="ExcelReporteClientes" />
                                   </Sequence.Variables>
@@ -2663,7 +2669,7 @@
                                                               <ueab:CustomFormat FormatAsString="dd/mm/yyyy" />
                                                             </ueab:FormatRangeX.Format>
                                                           </ueab:FormatRangeX>
-                                                          <ueab:InvokeVBAX Result="{x:Null}" CodeFilePath="vba\FormatExcel.vbs" DisplayName="Invoke VBA" EntryMethodName="FormatExcel" sap:VirtualizedContainerService.HintSize="439,403" sap2010:WorkflowViewState.IdRef="InvokeVBAX_38" Workbook="[Excel]">
+                                                          <ueab:InvokeVBAX Result="{x:Null}" CodeFilePath="[excel_file_path]" DisplayName="Invoke VBA" EntryMethodName="FormatExcel" sap:VirtualizedContainerService.HintSize="439,403" sap2010:WorkflowViewState.IdRef="InvokeVBAX_38" Workbook="[Excel]">
                                                             <ueab:InvokeVBAX.Body>
                                                               <ActivityAction>
                                                                 <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,289" sap2010:WorkflowViewState.IdRef="Sequence_1073">

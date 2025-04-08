@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "excel_file_path&Sequence_541",
         "isFinish&Sequence_541",
         "ArrayReportes&Sequence_541",
         "RUTA_PLANTILLA&Sequence_541",
