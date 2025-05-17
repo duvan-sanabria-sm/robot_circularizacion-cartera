@@ -12,7 +12,6 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "excel_file_path&Sequence_541",
         "isFinish&Sequence_541",
         "ArrayReportes&Sequence_541",
         "RUTA_PLANTILLA&Sequence_541",
@@ -29,6 +28,7 @@
         "ARRAY_COLUMNS_PROF&Sequence_541",
         "ARRAY_COLUMNS_RANGE&Sequence_541",
         "fechaModificada&Sequence_541",
+        "excel_file_path&Sequence_541",
         "URL_NS_CARTERA&Flowchart_5",
         "browser&Flowchart_5",
         "NOMBRE_PLANTILLA&Flowchart_5",
