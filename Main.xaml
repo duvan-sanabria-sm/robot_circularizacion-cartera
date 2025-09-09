@@ -183,7 +183,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="MainAction" sap:VirtualizedContainerService.HintSize="1014,4689" sap2010:WorkflowViewState.IdRef="Sequence_541">
+  <Sequence DisplayName="MainAction" sap:VirtualizedContainerService.HintSize="1031,4689" sap2010:WorkflowViewState.IdRef="Sequence_541">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="isFinish" />
       <Variable x:TypeArguments="s:String[]" Default="[{nombreReporte, nombreReporteProformas}]" Name="ArrayReportes" />
@@ -237,7 +237,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Flowchart sap:VirtualizedContainerService.HintSize="600,657" sap2010:WorkflowViewState.IdRef="Flowchart_5">
+                  <Flowchart sap:VirtualizedContainerService.HintSize="1048,778.04" sap2010:WorkflowViewState.IdRef="Flowchart_5">
                     <Flowchart.Variables>
                       <Variable x:TypeArguments="x:String" Default="https://5845631.app.netsuite.com/app/common/search/searchresults.nl?searchid=2010" Name="URL_NS_CARTERA" />
                       <Variable x:TypeArguments="ui:UiElement" Name="browser" />
@@ -526,7 +526,7 @@
                                   </Assign.Value>
                                 </Assign>
                                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="543,173" sap2010:WorkflowViewState.IdRef="LogMessage_38" Level="[UiPath.Core.Activities.LogLevel.Trace]" Message="[nombreReporte]" />
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="543,173" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="[UiPath.Core.Activities.LogLevel.Trace]" Message="[nombreReporteProformas]" />
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="543,173" sap2010:WorkflowViewState.IdRef="LogMessage_39" Level="Error" Message="[nombreReporteProformas]" />
                                 <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[RUTA_PLANTILLA]" DisplayName="Mover archivo" sap:VirtualizedContainerService.HintSize="543,191" sap2010:WorkflowViewState.IdRef="MoveFile_9" Overwrite="True" Path="[ExcelReporte.FullName]" />
                                 <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="543,998" sap2010:WorkflowViewState.IdRef="RetryScope_9" NumberOfRetries="3" RetryInterval="00:00:05">
                                   <ui:RetryScope.ActivityBody>
@@ -842,7 +842,7 @@
                                           <av:PointCollection x:Key="ConnectorLocation">805,700 660,700</av:PointCollection>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence DisplayName="RecorrerDatos" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_1029">
+                                      <Sequence DisplayName="RecorrerDatos" sap:VirtualizedContainerService.HintSize="954,18721" sap2010:WorkflowViewState.IdRef="Sequence_1029">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1860,7 +1860,7 @@
                                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                   </scg:Dictionary>
                                                 </sap:WorkflowViewStateService.ViewState>
-                                                <umab:ExchangeApplicationCard Account="analista.creditoycartera@servimeters.com" ConnectionAccountName="analista.creditoycartera@servimeters.com" ConnectionId="07747a9b-e735-49f7-9321-9d4d5c05d61e" DisplayName="Use Outlook 365" EmailAddress="analista.creditoycartera@servimeters.com" sap:VirtualizedContainerService.HintSize="502,726" sap2010:WorkflowViewState.IdRef="ExchangeApplicationCard_17" SharedMailbox="" UseConnectionService="True">
+                                                <umab:ExchangeApplicationCard Account="analista.creditoycartera@servimeters.com" ConnectionAccountName="analista.creditoycartera@servimeters.com" ConnectionId="349f711b-d8ba-4dff-b050-e766de673a43" DisplayName="Use Outlook 365" EmailAddress="analista.creditoycartera@servimeters.com" sap:VirtualizedContainerService.HintSize="502,726" sap2010:WorkflowViewState.IdRef="ExchangeApplicationCard_17" SharedMailbox="" UseConnectionService="True">
                                                   <umab:ExchangeApplicationCard.ApplicationId>
                                                     <InArgument x:TypeArguments="x:String">
                                                       <Literal x:TypeArguments="x:String" Value="" />
@@ -2059,7 +2059,7 @@
                                                   <av:PointCollection x:Key="ConnectorLocation">575,850 450,850 450,735</av:PointCollection>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <Sequence DisplayName="RecorrerProformas" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_895">
+                                              <Sequence DisplayName="RecorrerProformas" sap:VirtualizedContainerService.HintSize="965,12796" sap2010:WorkflowViewState.IdRef="Sequence_895">
                                                 <Sequence.Variables>
                                                   <Variable x:TypeArguments="si:FileInfo" Name="ExcelReporteClientes" />
                                                 </Sequence.Variables>
@@ -2759,7 +2759,7 @@
                                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <umab:ExchangeApplicationCard Account="analista.creditoycartera@servimeters.com" ConnectionAccountName="analista.creditoycartera@servimeters.com" ConnectionId="2d08ea77-7d76-4627-8b35-9660d9f2b5e5" DisplayName="Use Outlook 365" EmailAddress="analista.creditoycartera@servimeters.com" sap:VirtualizedContainerService.HintSize="502,726" sap2010:WorkflowViewState.IdRef="ExchangeApplicationCard_19" SharedMailbox="" UseConnectionService="True">
+                                                        <umab:ExchangeApplicationCard Account="analista.creditoycartera@servimeters.com" ConnectionAccountName="analista.creditoycartera@servimeters.com" ConnectionId="349f711b-d8ba-4dff-b050-e766de673a43" DisplayName="Use Outlook 365" EmailAddress="analista.creditoycartera@servimeters.com" sap:VirtualizedContainerService.HintSize="502,726" sap2010:WorkflowViewState.IdRef="ExchangeApplicationCard_19" SharedMailbox="" UseConnectionService="True">
                                                           <umab:ExchangeApplicationCard.ApplicationId>
                                                             <InArgument x:TypeArguments="x:String">
                                                               <Literal x:TypeArguments="x:String" Value="" />
