@@ -1,0 +1,6 @@
+{
+  "Name": "CircularizacionCartera",
+  "ProjectType": "Process",
+  "Description": "Porceso de circularizacion",
+  "MainFile": "Main.xaml"
+}
