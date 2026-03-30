@@ -1,5 +1,5 @@
 trigger:
-- develop
+- main
 
 pool:
   name: 'Default'   # tu agent pool
