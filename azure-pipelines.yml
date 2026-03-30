@@ -6,7 +6,7 @@ pool:
 
 steps:
 
-- task: UiPathPack@2
+- task: UiPathDeploy@3
   displayName: 'Pack UiPath Project'
   inputs:
     versionType: 'AutoVersion'
