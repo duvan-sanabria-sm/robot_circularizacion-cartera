@@ -1,19 +1,21 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
 - develop
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'Default'   # tu agent pool
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- task: UiPathPack@2
+  displayName: 'Pack UiPath Project'
+  inputs:
+    versionType: 'AutoVersion'
+    projectPath: '$(Build.SourcesDirectory)'
+    outputPath: '$(Build.ArtifactStagingDirectory)'
+
+- task: UiPathDeploy@2
+  displayName: 'Deploy to UiPath Orchestrator'
+  inputs:
+    orchestratorConnection: 'UiPath-Automation'
+    packagesPath: '$(Build.ArtifactStagingDirectory)'
+    folderName: 'Servimeters/Comercio/Cartera'
