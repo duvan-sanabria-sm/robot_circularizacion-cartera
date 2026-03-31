@@ -5,5 +5,15 @@ pool:
   name: 'Default'
 
 steps:
-- script: echo "Usando self-hosted agent"
-  displayName: 'Prueba de agente'
+- script: echo "Validando self-hosted agent"
+  displayName: 'Validar agente'
+
+- task: UiPathPack@6
+  inputs:
+    projectJsonPath: 'UiPathPack@3'
+    versionType: 'AutoVersion'
+    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+    outputType: 'Process'
+    orchestratorConnection: 'UiPath-Orchestrator'
+
+
