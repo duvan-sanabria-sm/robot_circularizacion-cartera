@@ -5,9 +5,6 @@ pool:
   name: 'Default'
 
 steps:
-- script: echo "Validando self-hosted agent"
-  displayName: 'Validar agente'
-
 - task: UiPathPack@6
   inputs:
     projectJsonPath: 'UiPathPack@3'
